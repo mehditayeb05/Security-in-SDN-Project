@@ -1,0 +1,7 @@
+switch:
+  id: "00:00:00:00:00:01"
+  protocols: "OpenFlow13"
+  table-miss: "send-to-controller"
+controller:
+  address: "127.0.0.1"
+  port: 6653
